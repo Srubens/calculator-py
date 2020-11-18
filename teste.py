@@ -9,7 +9,7 @@ layout = [
 ]
 
 # Create the Window
-window = sg.Window('Window Title', layout)
+window = sg.Window('teste', layout)
 # Event Loop to process "events" and get the "values" of the inputs
 while True:
     event, values = window.read()
